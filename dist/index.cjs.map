@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/index.ts"],
+  "sourcesContent": ["export {AxModule} from \"./AxModule\"\r\nexport {AxModuleAsync} from \"./AxModuleAsync\"\r\n"],
+  "mappings": ";;;;;;;;;;;;;;;AAAA;AAAA;",
+  "names": []
+}
