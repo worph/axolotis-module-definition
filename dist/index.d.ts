@@ -1,3 +1,11 @@
-export { AxModule } from "./AxModule";
-export { AxModuleAsync } from "./AxModuleAsync";
-//# sourceMappingURL=index.d.ts.map
+import { ContainerModule, AsyncContainerModule } from 'inversify';
+
+interface AxModule {
+    getModule(): ContainerModule;
+}
+
+interface AxModuleAsync {
+    getModule(): AsyncContainerModule;
+}
+
+export { AxModule, AxModuleAsync };
