@@ -1,2 +1,2 @@
-export {AxModule} from "./AxModule"
-export {AxModuleAsync} from "./AxModuleAsync"
+export * from "./AxModule"
+export * from "./AxModuleAsync"

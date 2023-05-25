@@ -1,1 +1,1 @@
-{"version":3,"sources":["../src/index.ts"],"sourcesContent":["export {AxModule} from \"./AxModule\"\r\nexport {AxModuleAsync} from \"./AxModuleAsync\"\r\n"],"mappings":"kWAAA,IAAAA,EAAA,kBAAAC,EAAAD","names":["src_exports","__toCommonJS"]}
+{"version":3,"sources":["../src/index.ts"],"sourcesContent":["export * from \"./AxModule\"\r\nexport * from \"./AxModuleAsync\"\r\n"],"mappings":"kWAAA,IAAAA,EAAA,kBAAAC,EAAAD","names":["src_exports","__toCommonJS"]}
