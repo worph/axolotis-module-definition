@@ -1,7 +1,7 @@
-import type {AsyncContainerModule} from "inversify";
+import type {interfaces} from "../inversify/src/interfaces/interfaces";
 
-export type AxModuleGeneratorAsync = () => AsyncContainerModule;
+export type ModuleGeneratorAsync = () => interfaces.AsyncContainerModule;
 export interface AxModuleAsync{
 
-    getModule():AsyncContainerModule;
+    getModule():interfaces.AsyncContainerModule;
 }

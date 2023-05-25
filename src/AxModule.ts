@@ -1,7 +1,7 @@
-import type {ContainerModule} from "inversify";
+import type {interfaces} from "../inversify/src/interfaces/interfaces";
 
-export type AxModuleGenerator = () => ContainerModule;
+export type ModuleGenerator = () => interfaces.ContainerModule;
 export interface AxModule{
 
-    getModule():ContainerModule;
+    getModule():interfaces.ContainerModule;
 }
